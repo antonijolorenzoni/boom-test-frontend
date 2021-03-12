@@ -1,0 +1,18 @@
+{
+  "id": 156,
+  "username": "stefano@boom.com",
+  "email": "stefano@boom.com",
+  "firstName": "Ste",
+  "lastName": "Arm",
+  "address": null,
+  "jobTitle": "Frontend Engineer",
+  "phoneNumber": null,
+  "language": "ENGLISH",
+  "activationDate": null,
+  "organization": 1,
+  "roles": [
+    { "id": 2, "name": "ROLE_ADMIN" },
+    { "id": 5, "name": "ROLE_OBSERVER" }
+  ],
+  "enabled": true
+}

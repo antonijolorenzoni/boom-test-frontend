@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`revertToOriginalStatuses should return original statuses from COMPANIES_ORDER_STATUSES_TRANSLATION_MAP for ACCEPTED status 1`] = `
+Array [
+  "NEW",
+  "PENDING",
+  "MATCHED",
+  "ASSIGNED",
+  "ACCEPTED",
+  "UPLOADED",
+  "AUTO_ASSIGNMENT",
+]
+`;
+
+exports[`revertToOriginalStatuses should return original statuses from COMPANIES_ORDER_STATUSES_TRANSLATION_MAP for POST_PROCESSING status 1`] = `
+Array [
+  "POST_PROCESSING",
+  "REFUSED",
+]
+`;
+
+exports[`revertToOriginalStatuses should return original statuses from COMPANIES_ORDER_STATUSES_TRANSLATION_MAP for a mix of statuses 1`] = `
+Array [
+  "DONE",
+  "NEW",
+  "PENDING",
+  "MATCHED",
+  "ASSIGNED",
+  "ACCEPTED",
+  "UPLOADED",
+  "AUTO_ASSIGNMENT",
+  "POST_PROCESSING",
+  "REFUSED",
+]
+`;

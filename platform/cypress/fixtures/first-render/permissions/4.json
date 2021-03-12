@@ -1,0 +1,12 @@
+[
+  { "name": "shooting.create" },
+  { "name": "company.read" },
+  { "name": "pricingpackage.read" },
+  { "name": "organization.read" },
+  { "name": "shooting.read" },
+  { "name": "shooting.cancel" },
+  { "name": "shooting.download" },
+  { "name": "shooting.update" },
+  { "name": "shooting.evaluate" },
+  { "name": "shooting.report" }
+]

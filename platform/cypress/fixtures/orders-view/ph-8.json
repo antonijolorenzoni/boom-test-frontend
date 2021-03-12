@@ -1,0 +1,51 @@
+{
+  "id": 8,
+  "user": {
+    "id": 40,
+    "username": "g.bettinazzi@gmail.com",
+    "email": "g.bettinazzi@gmail.com",
+    "firstName": "Giovanni",
+    "lastName": "Fotografo",
+    "address": null,
+    "jobTitle": null,
+    "phoneNumber": "33333",
+    "language": "ITALIAN",
+    "activationDate": 1542720230000,
+    "organization": 1,
+    "roles": [
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" }
+    ],
+    "enabled": true,
+    "deleted": false
+  },
+  "address": {
+    "placeId": "ChIJ51jpPeXAhkcRbaTrA9ljYXk",
+    "formattedAddress": "Via Giovanni Durando, 38, 20158 Milano MI, Italy",
+    "city": "Milano",
+    "street": "Via Giovanni Durando",
+    "timezone": null,
+    "location": { "latitude": 45.5061698, "longitude": 9.163727100000001 }
+  },
+  "dynamicAddress": null,
+  "score": 2.6246954727564105,
+  "cameras": [
+    { "id": 744, "model": "machina" },
+    { "id": 745, "model": "Macchinetta" },
+    { "id": 752, "model": "ee" },
+    { "id": 754, "model": "w" }
+  ],
+  "lenses": [
+    { "id": 656, "model": "Lenta" },
+    { "id": 658, "model": "ww" }
+  ],
+  "website": null,
+  "shortBio": "Biologia bellissimao",
+  "photoTypes": [{ "id": 3, "type": "REAL_ESTATE" }],
+  "completedShootings": null,
+  "abandonedShootings": null,
+  "deleted": false
+}

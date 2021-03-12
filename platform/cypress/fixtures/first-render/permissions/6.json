@@ -1,0 +1,22 @@
+[
+  { "name": "user.read" },
+  { "name": "authorizedservice.delete" },
+  { "name": "company.read" },
+  { "name": "user.create" },
+  { "name": "shooting.cancel" },
+  { "name": "shooting.create" },
+  { "name": "pricingpackage.read" },
+  { "name": "user.acl" },
+  { "name": "company.balance" },
+  { "name": "company.update" },
+  { "name": "shooting.evaluate" },
+  { "name": "shooting.update" },
+  { "name": "authorizedservice.create" },
+  { "name": "user.delete" },
+  { "name": "shooting.read" },
+  { "name": "user.update" },
+  { "name": "shooting.download" },
+  { "name": "shooting.report" },
+  { "name": "organization.read" },
+  { "name": "authorizedservice.read" }
+]

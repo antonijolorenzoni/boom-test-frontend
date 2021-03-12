@@ -1,0 +1,7 @@
+[
+  { "id": 1, "type": "EVENTS" },
+  { "id": 2, "type": "FOOD" },
+  { "id": 5, "type": "PRODUCTS" },
+  { "id": 4, "type": "OTHERS" },
+  { "id": 3, "type": "REAL_ESTATE" }
+]

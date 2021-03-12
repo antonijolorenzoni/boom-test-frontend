@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "status": 200,
+    "error": ""
+  },
+  {
+    "id": 1,
+    "status": 400,
+    "error": "terrible error :("
+  },
+  {
+    "id": 2,
+    "status": 200,
+    "error": ""
+  },
+  {
+    "id": 3,
+    "status": 200,
+    "error": ""
+  },
+  {
+    "id": 4,
+    "status": 400,
+    "error": "you can fix it! of course!"
+  },
+  {
+    "id": 5,
+    "status": 200,
+    "error": ""
+  }
+]

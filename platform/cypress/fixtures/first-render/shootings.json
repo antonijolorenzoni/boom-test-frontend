@@ -1,0 +1,263 @@
+{
+  "content": [
+    {
+      "id": 12,
+      "code": "SWT15-12",
+      "title": "adijfiafada",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584280800000,
+      "endDate": 1584280860000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 23,
+      "state": "CANCELED",
+      "createdAt": 1584113313000,
+      "updatedAt": 1584444048000
+    },
+    {
+      "id": 11,
+      "code": "SWT15-11",
+      "title": "Prova 2 ciaone",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584285060000,
+      "endDate": 1584288960000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 21,
+      "state": "CANCELED",
+      "createdAt": 1584112343000,
+      "updatedAt": 1584444055000
+    },
+    {
+      "id": 13,
+      "code": "SWT15-13",
+      "title": "Provaaaaaaaaaaa",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584286800000,
+      "endDate": 1584294000000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 13,
+      "state": "CANCELED",
+      "createdAt": 1584114279000,
+      "updatedAt": 1584444062000
+    },
+    {
+      "id": 15,
+      "code": "SWT15-15",
+      "title": "Prova shooting",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584291120000,
+      "endDate": 1584291720000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 27,
+      "state": "CANCELED",
+      "createdAt": 1584118533000,
+      "updatedAt": 1584443196000
+    },
+    {
+      "id": 19,
+      "code": "SWT15-19",
+      "title": "AAAAAA_LOOOOOOL",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584367500000,
+      "endDate": 1584370500000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 30,
+      "state": "CANCELED",
+      "createdAt": 1584123015000,
+      "updatedAt": 1584369186000
+    },
+    {
+      "id": 17,
+      "code": "SWT15-17",
+      "title": "AAAAAAAA",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": 14,
+      "startDate": 1584458100000,
+      "endDate": 1584458400000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 26,
+      "state": "CANCELED",
+      "createdAt": 1584119983000,
+      "updatedAt": 1584457209000
+    },
+    {
+      "id": 25,
+      "code": "SWT15-25",
+      "title": "Prova inserimento",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584612909000,
+      "endDate": 1584616509000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 12,
+      "state": "MATCHED",
+      "createdAt": 1584526535000,
+      "updatedAt": 1584526536000
+    },
+    {
+      "id": 24,
+      "code": "SWT15-24",
+      "title": "Nuovo shooting, yo!",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584716400000,
+      "endDate": 1584720300000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+        "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+        "city": "Milan",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.4642035, "longitude": 9.189982 }
+      },
+      "pricingPackageId": 21,
+      "state": "MATCHED",
+      "createdAt": 1584457262000,
+      "updatedAt": 1584457263000
+    },
+    {
+      "id": 21,
+      "code": "SWT15-21",
+      "title": "Prova da rischedulareasdada",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584799200000,
+      "endDate": 1584799500000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJJb4YZBJtiEcRv3ec1gP4A4k",
+        "formattedAddress": "Turin, Metropolitan City of Turin, Italy",
+        "city": "Turin",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.070312, "longitude": 7.686856499999999 }
+      },
+      "pricingPackageId": 26,
+      "state": "PENDING",
+      "createdAt": 1584369952000,
+      "updatedAt": 1584372812000
+    },
+    {
+      "id": 23,
+      "code": "SWT15-23",
+      "title": "Prova da rischedulare edited!",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584882000000,
+      "endDate": 1584886680000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJJb4YZBJtiEcRv3ec1gP4A4k",
+        "formattedAddress": "Turin, Metropolitan City of Turin, Italy",
+        "city": "Turin",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.070312, "longitude": 7.686856499999999 }
+      },
+      "pricingPackageId": 19,
+      "state": "PENDING",
+      "createdAt": 1584443370000,
+      "updatedAt": 1584457190000
+    },
+    {
+      "id": 22,
+      "code": "SWT15-22",
+      "title": "Prova shooting Ste",
+      "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+      "photographerId": null,
+      "startDate": 1584973800000,
+      "endDate": 1584973860000,
+      "timezone": "Europe/Rome",
+      "place": {
+        "placeId": "ChIJJb4YZBJtiEcRv3ec1gP4A4k",
+        "formattedAddress": "Turin, Metropolitan City of Turin, Italy",
+        "city": "Turin",
+        "street": null,
+        "timezone": "Europe/Rome",
+        "location": { "latitude": 45.070312, "longitude": 7.686856499999999 }
+      },
+      "pricingPackageId": 25,
+      "state": "PENDING",
+      "createdAt": 1584372517000,
+      "updatedAt": 1584377628000
+    }
+  ],
+  "pageable": {
+    "sort": { "sorted": true, "unsorted": false, "empty": false },
+    "offset": 0,
+    "pageSize": 500000,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalElements": 11,
+  "totalPages": 1,
+  "last": true,
+  "size": 500000,
+  "number": 0,
+  "sort": { "sorted": true, "unsorted": false, "empty": false },
+  "numberOfElements": 11,
+  "first": true,
+  "empty": false
+}

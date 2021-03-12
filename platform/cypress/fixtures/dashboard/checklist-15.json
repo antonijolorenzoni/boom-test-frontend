@@ -1,0 +1,9 @@
+{
+  "id": 17,
+  "organizationId": 15,
+  "title": "20180820_Brandbook_video",
+  "checklistUrl": "15/checklists/17/20180820_Brandbook_video.pdf",
+  "authorizedCompanies": [{ "id": 15, "name": "SweetGuest", "organization": 15 }],
+  "createdAt": 1570108895000,
+  "updatedAt": 1570108896000
+}

@@ -1,0 +1,8 @@
+[
+  { "name": "shooting.download" },
+  { "name": "shooting.report" },
+  { "name": "pricingpackage.read" },
+  { "name": "shooting.read" },
+  { "name": "organization.read" },
+  { "name": "company.read" }
+]

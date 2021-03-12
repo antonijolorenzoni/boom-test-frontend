@@ -1,0 +1,61 @@
+{
+  "id": 2,
+  "code": "SWT2-2",
+  "title": "Unscheduled",
+  "company": { "id": 15, "name": "SweetGuest", "organization": 15 },
+  "photographerId": null,
+  "startDate": null,
+  "endDate": null,
+  "timezone": "Europe/Rome",
+  "place": {
+    "placeId": "ChIJBZ_FfDPBhkcRsyq--m5b4cM",
+    "formattedAddress": "Corso Como, Milano MI, Italy",
+    "city": "Milano",
+    "street": "Corso Como",
+    "timezone": "Europe/Rome",
+    "location": { "latitude": 45.48221540000001, "longitude": 9.187367 }
+  },
+  "pricingPackageId": 11,
+  "state": "UNSCHEDULED",
+  "createdAt": 1595845153000,
+  "updatedAt": 1595845153000,
+  "downloadLink": "http://localhost:8080/api/v1/public/shootings/images/a238035d0e695b8f263098cbf4756136a2afab4ac6bf62b4a5080c7313d12f98",
+  "distance": null,
+  "travelExpenses": null,
+  "deliveryMethods": [],
+  "deliveryStatus": null,
+  "pricingPackage": {
+    "id": 11,
+    "name": "Pacchetto 1",
+    "photosQuantity": 100,
+    "shootingDuration": 120,
+    "companyPrice": 3000.0,
+    "photographerEarning": 2000.0,
+    "photoType": { "id": 1, "type": "EVENTS" },
+    "authorizedCompanies": [
+      {
+        "id": 34,
+        "name": "SweetGuest Italia",
+        "organization": 15,
+        "parentCompany": 15,
+        "createdAt": 1541672803000,
+        "updatedAt": 1594020765000
+      },
+      { "id": 15, "name": "SweetGuest", "organization": 15, "parentCompany": 1, "createdAt": 1540904177000, "updatedAt": 1570108896000 }
+    ],
+    "organizationId": 15,
+    "currency": { "id": 2, "alphabeticCode": "USD", "numericCode": 840, "displayName": "US Dollar", "symbol": "$" },
+    "deleted": false
+  },
+  "description": null,
+  "contact": null,
+  "logisticInformation": null,
+  "refund": null,
+  "uploadComments": null,
+  "stateChangedAt": null,
+  "processing": false,
+  "completedAt": null,
+  "mainContact": { "fullName": "Amy Romans", "email": "mail@boom.com", "phoneNumber": "+391234567890", "businessName": null },
+  "canBeRescheduled": true,
+  "assignee": null
+}

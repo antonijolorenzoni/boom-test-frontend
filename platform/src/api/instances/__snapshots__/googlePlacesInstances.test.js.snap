@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`googlePlaceInstances buildAddressDTO build a full address 1`] = `
+Object {
+  "city": "Milano",
+  "country": "Italy",
+  "countryCode": "IT",
+  "formattedAddress": "Corso Magenta, 85, 20123 Milano MI, Italy",
+  "location": Object {
+    "latitude": 45.4658235,
+    "longitude": 9.1666898,
+  },
+  "placeId": "ChIJ4edudVzBhkcRHP7WsU-4aSM",
+  "postalCode": "20123",
+  "street": "Corso Magenta",
+  "street_number": "85",
+  "timezone": "Europe/Rome",
+}
+`;
+
+exports[`googlePlaceInstances buildAddressDTO build an address composed by only a city 1`] = `
+Object {
+  "city": "Milan",
+  "country": "Italy",
+  "countryCode": "IT",
+  "formattedAddress": "Milan, Metropolitan City of Milan, Italy",
+  "location": Object {
+    "latitude": 45.4642035,
+    "longitude": 9.189982,
+  },
+  "placeId": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+  "postalCode": undefined,
+  "street": undefined,
+  "street_number": undefined,
+  "timezone": "Europe/Rome",
+}
+`;
+
+exports[`googlePlaceInstances buildAddressDTO build an address composed by only a country 1`] = `
+Object {
+  "city": undefined,
+  "country": "Italy",
+  "countryCode": "IT",
+  "formattedAddress": "Italy",
+  "location": Object {
+    "latitude": 41.87194,
+    "longitude": 12.56738,
+  },
+  "placeId": "ChIJA9KNRIL-1BIRb15jJFz1LOI",
+  "postalCode": undefined,
+  "street": undefined,
+  "street_number": undefined,
+  "timezone": "Europe/Rome",
+}
+`;
+
+exports[`googlePlaceInstances buildAddressDTO build an address without street number 1`] = `
+Object {
+  "city": "Milano",
+  "country": "Italy",
+  "countryCode": "IT",
+  "formattedAddress": "Corso Magenta, Milano MI, Italy",
+  "location": Object {
+    "latitude": 45.4657262,
+    "longitude": 9.173159199999999,
+  },
+  "placeId": "ChIJLfawmlDBhkcRX8dY63xh_1w",
+  "postalCode": undefined,
+  "street": "Corso Magenta",
+  "street_number": undefined,
+  "timezone": "Europe/Rome",
+}
+`;

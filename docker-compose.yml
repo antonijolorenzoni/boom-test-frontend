@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  boom-backoffice:
+    build: 
+      context: .
+      args: 
+       - profile_env=${profile_env}
+    ports: 
+      - "80:8080"

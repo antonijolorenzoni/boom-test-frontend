@@ -1,0 +1,7 @@
+[
+  { "id": 2, "name": "ROLE_ADMIN" },
+  { "id": 7, "name": "ROLE_PHOTO_EDITOR" },
+  { "id": 6, "name": "ROLE_MANAGER" },
+  { "id": 4, "name": "ROLE_EDITOR" },
+  { "id": 5, "name": "ROLE_OBSERVER" }
+]

@@ -1,0 +1,49 @@
+{
+  "id": 658,
+  "user": {
+    "id": 1228,
+    "username": "luca.distefano+ph@boom.co",
+    "email": "luca.distefano+ph@boom.co",
+    "firstName": "Luca",
+    "lastName": "Di Stefano PH",
+    "address": null,
+    "jobTitle": null,
+    "phoneNumber": "2273499084",
+    "language": "ENGLISH",
+    "activationDate": null,
+    "organization": 1,
+    "roles": [
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" },
+      { "id": 3, "name": "ROLE_PHOTOGRAPHER" }
+    ],
+    "enabled": true,
+    "deleted": false
+  },
+  "address": {
+    "placeId": "ChIJlytIagNXeUcRNr2Z9I7aA0M",
+    "formattedAddress": "30027 San Donà di Piave, Metropolitan City of Venice, Italy",
+    "city": "San Donà di Piave",
+    "street": null,
+    "timezone": null,
+    "location": { "latitude": 45.630335, "longitude": 12.5660992 }
+  },
+  "dynamicAddress": null,
+  "score": 5.0,
+  "cameras": [{ "id": 755, "model": "Canon EOS 70D" }],
+  "lenses": [{ "id": 659, "model": "Canon 18-135" }],
+  "website": null,
+  "shortBio": "I'm not even a real photographer",
+  "photoTypes": [
+    { "id": 5, "type": "PRODUCTS" },
+    { "id": 1, "type": "EVENTS" },
+    { "id": 4, "type": "OTHERS" },
+    { "id": 2, "type": "FOOD" },
+    { "id": 3, "type": "REAL_ESTATE" }
+  ],
+  "completedShootings": null,
+  "abandonedShootings": null,
+  "deleted": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "company": 15,
+  "email": "sg@sweetguest.com",
+  "address": "Corso Cristoforo Colombo, 10 - 20144 Milano MI",
+  "phoneNumber": "02496937654445333",
+  "language": "ITALIAN",
+  "photoTypes": [
+    { "id": 3, "type": "REAL_ESTATE" },
+    { "id": 4, "type": "OTHERS" },
+    { "id": 1, "type": "EVENTS" },
+    { "id": 2, "type": "FOOD" }
+  ],
+  "googleAuthorized": false
+}

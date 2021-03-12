@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "./lib/",
+    "module": "esnext",
+    "target": "es3",
+    "lib": ["es6", "dom", "esnext"],
+    "sourceMap": false,
+    "declaration": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*", "./index.d.ts"],
+  "exclude": ["lib", "./src/**/*.test.*", "./src/**/__snapshots__"]
+}

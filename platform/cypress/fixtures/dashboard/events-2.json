@@ -1,0 +1,58 @@
+{
+  "content": [
+    {
+      "id": "02eeef3015c9c008bc1eddb5badabb97225d5cec208f921cb25731cedacd1d41",
+      "company": {
+        "id": 15,
+        "name": "SweetGuest",
+        "organization": 15,
+        "parentCompany": 1,
+        "createdAt": 1540904177000,
+        "updatedAt": 1570108896000
+      },
+      "user": {
+        "id": 1229,
+        "username": "ste@boom.co",
+        "email": "ste@boom.co",
+        "firstName": "Stefano",
+        "lastName": "Armenes",
+        "address": null,
+        "jobTitle": null,
+        "phoneNumber": null,
+        "language": "ENGLISH",
+        "activationDate": null,
+        "organization": 1,
+        "roles": [
+          { "id": 2, "name": "ROLE_ADMIN" },
+          { "id": 5, "name": "ROLE_OBSERVER" }
+        ],
+        "enabled": true,
+        "deleted": false
+      },
+      "photographer": null,
+      "shootingId": 2,
+      "type": "SHOOTING_REQUESTED",
+      "invoiceItem": null,
+      "payload": null,
+      "createdAt": 1595845153495,
+      "additionalInfo": {}
+    }
+  ],
+  "pageable": {
+    "sort": { "sorted": false, "unsorted": true, "empty": true },
+    "offset": 0,
+    "pageSize": 100,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalElements": 1,
+  "totalPages": 1,
+  "last": true,
+  "size": 100,
+  "number": 0,
+  "sort": { "sorted": false, "unsorted": true, "empty": true },
+  "numberOfElements": 1,
+  "first": true,
+  "empty": false
+}

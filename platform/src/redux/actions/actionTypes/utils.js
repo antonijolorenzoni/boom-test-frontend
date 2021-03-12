@@ -1,0 +1,18 @@
+//
+// ────────────────────────────────────────────────────────────────────────────────────────────── I ──────────
+//   :::::: P L A T F O R M   U T I L S   A C T I O N   T Y P E S : :  :   :    :     :        :          :
+// ────────────────────────────────────────────────────────────────────────────────────────────────────────
+//
+
+module.exports = {
+  SET_SPINNER_VISIBILITY: 'SET_SPINNER_VISIBILITY',
+  SET_SELECTED_LANGUAGE: 'SET_SELECTED_LANGUAGE',
+  SET_IS_APP_MOBILE: 'SET_IS_APP_MOBILE',
+  SET_LOADING_PROGRESS_VISIBLE: 'SET_LOADING_PROGRESS_VISIBLE',
+  SET_LOADING_PROGRESS_VALUE: 'SET_LOADING_PROGRESS_VALUE',
+  SAVE_PLATFORM_CURRENCIES: 'SAVE_PLATFORM_CURRENCIES',
+  SAVE_PLATFORM_CURRENCIES_PAGINATION: 'SAVE_PLATFORM_CURRENCIES_PAGINATION',
+  SET_PLATFORM_CURRENCIES_FILTER: 'SET_PLATFORM_CURRENCIES_FILTER',
+  RESET_PLATFORM_CURRENCIES_FILTERS: 'RESET_PLATFORM_CURRENCIES_FILTERS',
+  SET_CALENDAR_TIMEZONE: 'SET_CALENDAR_TIMEZONE',
+};

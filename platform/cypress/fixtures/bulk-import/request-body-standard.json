@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "body": {
+      "organizationName": "My Org",
+      "companyName": "My Company",
+      "packageName": "Package Gold",
+      "address": "Via R. Sanzio, 22, Venice, Italy, 22990",
+      "title": "Bau",
+      "description": "Sample description",
+      "logisticInformation": "logistic 1",
+      "contactFullName": "Marco Rossi",
+      "contactPhone": "+393401234567",
+      "contactEmail": "marco.rossi@gmail.com",
+      "startDate": 1584091800000
+    }
+  },
+  {
+    "id": 1,
+    "body": {
+      "organizationName": "My Org 1",
+      "companyName": "My cool Company",
+      "packageName": "Package Silver",
+      "address": "Via Tal Dei Tali, 3, Venice, Italy, 22990",
+      "title": "Miao shoot",
+      "description": "Sample description",
+      "logisticInformation": "logistic 2",
+      "contactFullName": "Marco Rossi",
+      "contactPhone": "+393401234567",
+      "contactEmail": "marco.rossi@gmail.com",
+      "startDate": 1607939400000
+    }
+  },
+  {
+    "id": 2,
+    "body": {
+      "organizationName": "My Org 2",
+      "companyName": "Ciaone company",
+      "packageName": "Ciaone package",
+      "address": "Via Avogadro, 5, Venice, Italy, 22990",
+      "title": "Sample shooting",
+      "description": "Sample description",
+      "logisticInformation": "logistic 3",
+      "contactFullName": "Marco Rossi",
+      "contactPhone": "+393401234567",
+      "contactEmail": "marco.rossi@gmail.com",
+      "startDate": 1600162200000
+    }
+  },
+  {
+    "id": 3,
+    "body": {
+      "organizationName": "My Org 3",
+      "companyName": "Miao company",
+      "packageName": "Cool package",
+      "address": "Via x, 5, Milan, Italy, 20143",
+      "title": "Hello!",
+      "description": "Sample description",
+      "logisticInformation": "logistic 4",
+      "contactFullName": "Marco Rossi",
+      "contactPhone": "+3934012345678910",
+      "contactEmail": "marco@boom.co",
+      "startDate": 1592033400000
+    }
+  },
+  {
+    "id": 4,
+    "body": {
+      "organizationName": "My Org 4",
+      "companyName": "Rofl company",
+      "packageName": "Hello there!",
+      "address": "Via Faraday, 33, Milan, Italy, 20000",
+      "title": "Cool shooting",
+      "description": "Sample description",
+      "logisticInformation": "logistic 5",
+      "contactFullName": "Marco Rossi",
+      "contactPhone": "+393401234567",
+      "contactEmail": "prova.mail@abbastanzalunga.com",
+      "startDate": 1590251400000
+    }
+  },
+  {
+    "id": 5,
+    "body": {
+      "organizationName": "My Org 5",
+      "companyName": "Lol company",
+      "packageName": "Package Eurospin",
+      "address": "Via Di Vittorio, 4, Turin, Italy, 12345",
+      "title": "Shooting N",
+      "description": "Sample description",
+      "logisticInformation": "logistic 6",
+      "contactFullName": "Marco Rossi",
+      "contactPhone": "+393401234567123",
+      "contactEmail": "marco.rossi@gmail.com",
+      "startDate": 1586680200000
+    }
+  }
+]

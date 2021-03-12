@@ -1,0 +1,121 @@
+{
+  "name": "platform",
+  "version": "1.41.0",
+  "private": true,
+  "dependencies": {
+    "@casl/ability": "^2.5.1",
+    "@casl/react": "^2.2.2",
+    "@date-io/moment": "1.3.13",
+    "@material-ui/core": "^3.9.4",
+    "@material-ui/icons": "^3.0.1",
+    "@popperjs/core": "^2.9.1",
+    "@react-pdf/renderer": "^1.6.13",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@stripe/react-stripe-js": "^1.4.0",
+    "@stripe/stripe-js": "^1.13.1",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.33",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-form": "^2.16.2",
+    "@types/react-redux": "^7.1.16",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
+    "formik": "^2.2.6",
+    "i18n-iso-countries": "^6.5.0",
+    "i18next": "^19.9.2",
+    "jsonwebtoken": "^8.3.0",
+    "load-script": "^1.0.0",
+    "lodash": "^4.17.21",
+    "material-ui-chip-input": "^2.0.0-beta.2",
+    "material-ui-pickers": "^2.2.4",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "papaparse": "^5.1.1",
+    "payment-icons": "^1.2.1",
+    "prop-types": "^15.6.2",
+    "query-string": "^6.14.1",
+    "react": "^17.0.1",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-big-calendar": "^0.33.2",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-csv": "^2.0.3",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^7.0.1",
+    "react-i18next": "11.8.9",
+    "react-infinite-scroller": "^1.2.2",
+    "react-phone-number-input": "^3.1.15",
+    "react-popper": "^2.2.4",
+    "react-redux": "^7.2.2",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.3",
+    "react-select": "^4.2.1",
+    "react-table": "^7.6.3",
+    "redux-form": "^8.3.7",
+    "redux-thunk": "^2.3.0",
+    "seamless-immutable": "^7.1.4",
+    "styled-components": "^5.2.1",
+    "swr": "0.5.2",
+    "typescript": "^4.2.3",
+    "ui-boom-components": "0.0.9",
+    "uuid": "^8.3.2",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@datadog/browser-logs": "^2.6.0",
+    "@sheerun/mutationobserver-shim": "^0.3.3",
+    "@testing-library/cypress": "^7.0.4",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@types/gapi": "^0.0.39",
+    "@types/google.picker": "^0.0.34",
+    "@types/papaparse": "^5.2.5",
+    "@types/react-big-calendar": "^0.30.0",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-table": "^7.0.29",
+    "@types/redux-form": "^8.3.1",
+    "@types/uuid": "^8.3.0",
+    "cypress": "5.6.0",
+    "cypress-file-upload": "^5.0.2",
+    "start-server-and-test": "^1.12.0"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_VERSION=$npm_package_version react-scripts start",
+    "build": "cross-env REACT_APP_VERSION=$npm_package_version react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cy:headless": "start-server-and-test http://localhost:3000 cy:run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --headless"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "curly": "error",
+      "no-debugger": "error",
+      "no-console": "warn"
+    }
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+      }
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

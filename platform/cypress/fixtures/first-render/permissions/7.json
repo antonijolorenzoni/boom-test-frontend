@@ -1,0 +1,15 @@
+[
+  { "name": "shooting.download" },
+  { "name": "photographer.read" },
+  { "name": "shooting.report" },
+  { "name": "organization.read" },
+  { "name": "company.read" },
+  { "name": "shooting.evaluate" },
+  { "name": "pricingpackage.read" },
+  { "name": "shooting.manage" },
+  { "name": "checklist.read" },
+  { "name": "shooting.refusePhotos" },
+  { "name": "shooting.acceptPhotos" },
+  { "name": "user.read" },
+  { "name": "shooting.read" }
+]

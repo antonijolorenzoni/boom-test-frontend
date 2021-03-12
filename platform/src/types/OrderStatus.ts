@@ -1,0 +1,17 @@
+export enum OrderStatus {
+  New = 'NEW',
+  AutoAssignment = 'AUTO_ASSIGNMENT',
+  Pending = 'PENDING',
+  Matched = 'MATCHED',
+  Assigned = 'ASSIGNED',
+  Accepted = 'ACCEPTED',
+  Uploaded = 'UPLOADED',
+  PostProcessing = 'POST_PROCESSING',
+  Done = 'DONE',
+  Downloaded = 'DOWNLOADED',
+  Canceled = 'CANCELED',
+  Reshoot = 'RESHOOT',
+  Archived = 'ARCHIVED',
+  Refused = 'REFUSED',
+  Unscheduled = 'UNSCHEDULED',
+}

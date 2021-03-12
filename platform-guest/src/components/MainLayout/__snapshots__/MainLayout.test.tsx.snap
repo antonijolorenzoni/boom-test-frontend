@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainLayout /> renders correctly saving a snapshot 1`] = `
+.c1 {
+  padding: 35px 31px;
+  top: 0;
+  width: 100vw;
+  position: relative;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.c3:hover {
+  opacity: 1;
+}
+
+.c3:active {
+  opacity: 1;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.c4 {
+  font-size: 25px;
+}
+
+.c5 {
+  cursor: pointer;
+}
+
+.c0 {
+  height: 100vh;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  height: calc(100vh - 234px);
+}
+
+@media screen and (max-width:576px) {
+  .c6 {
+    bottom: 0;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .c6 {
+    height: calc(100vh - 117px);
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="Boom Logo"
+        height="47"
+        src="logo_black.png"
+      />
+      <div
+        style="display: flex; align-items: center;"
+      >
+        <a
+          class="c2"
+          href="https://boom.co/about-us/"
+          target="_blank"
+        >
+          <div
+            class="c3"
+            style="margin-right: 42px;"
+          >
+            <i
+              aria-hidden="true"
+              class="c4 material-icons-outlined material-icons"
+              role="presentation"
+              size="25"
+              style="margin-right: 10px;"
+            >
+              camera_alt
+            </i>
+            <h2
+              style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(255, 255, 255); text-align: left; text-transform: none;"
+            >
+              About us
+            </h2>
+          </div>
+        </a>
+        <a
+          class="c2"
+          data-testid="faq-link"
+          href="https://boom.co/businesses/faq-business-owner-real-estate/"
+          target="_blank"
+        >
+          <div
+            class="c3"
+            style="margin-right: 42px;"
+          >
+            <i
+              aria-hidden="true"
+              class="c4  material-icons"
+              role="presentation"
+              size="25"
+              style="margin-right: 10px;"
+            >
+              chat_bubble_outline
+            </i>
+            <h2
+              style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(255, 255, 255); text-align: left; text-transform: none;"
+            >
+              FAQ
+            </h2>
+          </div>
+        </a>
+        <div
+          class="c3"
+          data-testid="wrapper-logout-test-id"
+        >
+          <i
+            aria-hidden="true"
+            class="c4  material-icons"
+            role="presentation"
+            size="25"
+            style="margin-right: 10px;"
+          >
+            power_settings_new
+          </i>
+          <h2
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(255, 255, 255); text-align: left; text-transform: none;"
+          >
+            Log out
+          </h2>
+        </div>
+        <div
+          style="height: 22px; margin-left: 32px; margin-right: 0px;"
+        >
+          <img
+            alt="flag-[object Object]"
+            class="c5"
+            src="[object Object]"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <div>
+        content here!
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+//
+// ────────────────────────────────────────────────────────────────────────────────────────────── I ──────────
+//   :::::: P L A T F O R M   U S E R S   A C T I O N   T Y P E S : :  :   :    :     :        :          :
+// ────────────────────────────────────────────────────────────────────────────────────────────────────────
+//
+
+module.exports = {
+  SAVE_USERS: 'SAVE_USERS',
+  APPEND_USERS: 'APPEND_USERS',
+  SAVE_USERS_PAGINATION: 'SAVE_USERS_PAGINATION',
+  SET_USERS_FILTER: 'SET_USERS_FILTER',
+  RESET_USERS_FILTERS: 'RESET_USERS_FILTERS',
+  DELETE_USER: 'DELETE_USER',
+  RESET_USERS_DATA: 'RESET_USERS_DATA',
+  UPDATE_USER: 'UPDATE_USER',
+  SET_SELECTED_USER: 'SET_SELECTED_USER',
+  SAVE_USER_ACCESS_RULES: 'SAVE_USER_ACCESS_RULES',
+  RESET_USER_ACCESS_RULES: 'RESET_USER_ACCESS_RULES',
+  SAVE_USER_ACCESS_RULES_PAGINATION: 'SAVE_USER_ACCESS_RULES_PAGINATION',
+  SET_ACCESS_RULES_FILTERS: 'SET_ACCESS_RULES_FILTERS',
+  RESET_ACCESS_RULES_FILTERS: 'RESET_ACCESS_RULES_FILTERS',
+  APPEND_USER_ACCESS_RULES: 'APPEND_USER_ACCESS_RULES',
+};

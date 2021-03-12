@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderPanel /> renders correctly saving a snapshot 1`] = `
+.c5 {
+  color: #A3ABB1;
+  font-size: 18px;
+}
+
+.c6 {
+  position: relative;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 3px 6px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #5AC0B1;
+  -webkit-transition: box-shadow 0.2s ease,-webkit-transform 0.5s ease;
+  -webkit-transition: box-shadow 0.2s ease,transform 0.5s ease;
+  transition: box-shadow 0.2s ease,transform 0.5s ease;
+  height: 37px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.c6:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c6:hover {
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.12);
+}
+
+.c6:active {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.c0 {
+  width: 100%;
+  padding: 16px 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 30px;
+}
+
+.c4 {
+  border-top: 0.5px solid #a3abb1;
+  -webkit-transform: matrix(1,0,0,1,0,0);
+  -ms-transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1,0,0,1,0,0);
+  opacity: 0.5;
+}
+
+.c3 {
+  display: grid;
+  white-space: nowrap;
+  grid-template-columns: repeat(3,1fr);
+  -webkit-column-gap: 80px;
+  column-gap: 80px;
+  row-gap: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 0 200px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 20px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width:768px) {
+  .c0 {
+    box-shadow: 0px -4px 10px rgba(0,0,0,0.25);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    margin: 0;
+    padding: 11px 30px 30px;
+    overflow: scroll;
+    height: calc(100vh - 155px);
+  }
+}
+
+@media screen and (max-width:992px) {
+  .c3 {
+    padding: 0;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .c1 {
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .c2 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .c8 {
+    margin-bottom: 12px;
+  }
+}
+
+<div>
+  <div
+    style="max-width: 958px; width: 100%;"
+  >
+    <h2
+      style="margin: 0px 0px 7px 20px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(255, 255, 255); text-align: left; text-transform: none;"
+    >
+      YOUR PHOTOSHOOTING
+    </h2>
+    <div
+      class="c0"
+    >
+      <p
+        style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+      >
+        PHOTOSHOOT STATUS
+      </p>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <h2
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: uppercase;"
+          >
+            Unscheduled
+          </h2>
+          <p
+            style="margin: 0px; padding: 0px; font-size: 12px; font-weight: 300; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            Keep your property tidy and picture-ready for the photoshoot.
+          </p>
+        </div>
+      </div>
+      <div
+        class="c3"
+        style="position: relative;"
+      >
+        <div>
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            PHOTOS
+          </p>
+          <h2
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+          >
+            10
+          </h2>
+        </div>
+        <div>
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            DURATION
+          </p>
+          <h2
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+          >
+            50 m
+          </h2>
+        </div>
+        <div>
+          <div
+            style="display: flex;"
+          >
+            <p
+              style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+            >
+              GUIDELINES
+            </p>
+          </div>
+          <a
+            href="https://sites.google.com/boom.co/guidelines-bo-re-en/home"
+            rel="noopener noreferrer"
+            style="text-decoration-color: #5AC0B1;"
+            target="_blank"
+          >
+            <p
+              style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(90, 192, 177); text-align: left; text-transform: none;"
+            >
+              Read
+            </p>
+          </a>
+        </div>
+      </div>
+      <div
+        class="c4"
+      />
+      <div
+        class="c3"
+        style="position: relative;"
+      >
+        <div>
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            DATE
+          </p>
+          <div
+            style="display: flex; margin-bottom: 8px; align-items: center;"
+          >
+            <i
+              aria-hidden="true"
+              class="c5  material-icons"
+              color="#A3ABB1"
+              role="presentation"
+              size="18"
+              style="margin-right: 12px;"
+            >
+              calendar_today
+            </i>
+            <h2
+              style="margin: 2px 0px 0px 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+            >
+              Thu 17/09
+            </h2>
+          </div>
+        </div>
+        <div>
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            TIME
+          </p>
+          <div
+            style="display: flex; margin-bottom: 8px; align-items: center;"
+          >
+            <i
+              aria-hidden="true"
+              class="c5  material-icons"
+              color="#A3ABB1"
+              role="presentation"
+              size="18"
+              style="margin-right: 12px;"
+            >
+              access_time
+            </i>
+            <h2
+              style="margin: 2px 0px 0px 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+            >
+              15:00
+            </h2>
+          </div>
+        </div>
+        <button
+          class="c6"
+          style="padding: 9px 16px; align-self: end; max-width: 100px; visibility: visible;"
+          type="button"
+        >
+          CONFIRM
+        </button>
+      </div>
+      <p
+        style="margin: 0px 0px 13px 0px; padding: 0px; font-size: 13px; font-weight: 500; line-height: 18px; color: rgb(90, 192, 177); text-align: right; text-transform: none; text-decoration: underline; opacity: 1; cursor: pointer;"
+      >
+        Choose another date
+      </p>
+      <div
+        class="c4"
+      />
+      <div
+        style="position: relative; display: flex; justify-content: space-between; margin-top: 10px; margin-bottom: 10px;"
+      >
+        <p
+          style="margin: 0px; padding: 0px; font-size: 13px; font-weight: 500; line-height: 18px; color: rgb(128, 136, 141); text-align: left; text-transform: none;"
+        >
+          Who is the contact on site?
+        </p>
+        <p
+          style="margin: 0px; padding: 0px; font-size: 13px; font-weight: 500; line-height: 18px; color: rgb(90, 192, 177); text-align: right; text-transform: none; text-decoration: underline; cursor: pointer;"
+        >
+          Edit
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <p
+            style="margin: 5px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            NAME SURNAME
+          </p>
+          <p
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+          >
+            Ste
+          </p>
+        </div>
+        <div
+          class="c8"
+        >
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            EMAIL
+          </p>
+          <p
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+          >
+            ste@boom.co
+          </p>
+        </div>
+        <div
+          class="c8"
+        >
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            PHONE
+          </p>
+          <p
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+          >
+            +393407272724
+          </p>
+        </div>
+        <p
+          style="margin: 0px 0px -20px 0px; padding: 0px; font-size: 13px; font-weight: 500; line-height: 18px; color: rgb(128, 136, 141); text-align: left; text-transform: none; grid-column-start: 1; grid-column-end: 3;"
+        >
+          Business
+        </p>
+        <div
+          class="c8"
+        >
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            ADDRESS
+          </p>
+          <p
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+          >
+            Corso Magenta, Milano MI, Italy
+          </p>
+        </div>
+        <div
+          class="c8"
+        >
+          <p
+            style="margin: 0px 0px 4px 0px; padding: 0px; font-size: 12px; font-weight: 600; line-height: 17px; color: rgb(163, 171, 177); text-align: left; text-transform: none;"
+          >
+            BUSINESS NAME
+          </p>
+          <p
+            style="margin: 0px; padding: 0px; font-size: 17px; font-weight: 500; line-height: 24px; color: rgb(0, 0, 0); text-align: left; text-transform: none;"
+          >
+            Ciaone SRL
+          </p>
+        </div>
+      </div>
+      <a
+        href="https://boom.co/businesses/faq-business-owner-real-estate/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          style="margin: 0px 0px 2px 0px; padding: 0px; font-size: 13px; font-weight: 500; line-height: 18px; color: rgb(90, 192, 177); text-align: left; text-transform: none; text-decoration: underline; cursor: pointer;"
+        >
+          Do you have any questions?
+        </p>
+      </a>
+      <h4
+        style="margin: 0px 0px 10px 0px; padding: 0px; font-size: 11px; font-weight: 400; line-height: 15px; color: rgb(128, 136, 141); text-align: left; text-transform: none;"
+      >
+        Corso Magenta 85, 20123, Milano MI / P.IVA 1234565432
+      </h4>
+    </div>
+  </div>
+</div>
+`;

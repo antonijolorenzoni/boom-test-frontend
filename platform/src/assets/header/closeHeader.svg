@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Global-Icons/CloseMobile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boom-Responsive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1-Dashboard-Fotografo-(Menu-1)" transform="translate(-340.000000, -122.000000)" fill="#1D1D1B">
+            <g id="Group-3" transform="translate(-1.000000, 99.000000)">
+                <g id="Icons/Global-Icons/CloseMobile" transform="translate(336.000000, 18.000000)">
+                    <path d="M12,10.3361487 L16.9915538,5.34459488 C17.4510137,4.88513504 18.1959453,4.88513504 18.6554051,5.34459488 C19.114865,5.80405473 19.114865,6.54898632 18.6554051,7.00844616 L13.6638513,12 L18.6554051,16.9915538 C19.114865,17.4510137 19.114865,18.1959453 18.6554051,18.6554051 C18.1959453,19.114865 17.4510137,19.114865 16.9915538,18.6554051 L12,13.6638513 L7.00844616,18.6554051 C6.54898632,19.114865 5.80405473,19.114865 5.34459488,18.6554051 C4.88513504,18.1959453 4.88513504,17.4510137 5.34459488,16.9915538 L10.3361487,12 L5.34459488,7.00844616 C4.88513504,6.54898632 4.88513504,5.80405473 5.34459488,5.34459488 C5.80405473,4.88513504 6.54898632,4.88513504 7.00844616,5.34459488 L12,10.3361487 Z" id="Rectangle-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

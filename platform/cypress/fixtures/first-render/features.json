@@ -1,0 +1,9 @@
+[
+  { "name": "multi-delivery", "enabled": true },
+  { "name": "ux-restyling", "enabled": true },
+  { "name": "ux-improve-top-shooting", "enabled": true },
+  { "name": "multi-delivery-gdrive", "enabled": true },
+  { "name": "open-date", "enabled": true },
+  { "name": "main-contact", "enabled": true },
+  { "name": "internal-id", "enabled": false }
+]
