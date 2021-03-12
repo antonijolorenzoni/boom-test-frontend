@@ -1,0 +1,51 @@
+---
+kind: pipeline
+type: docker
+name: compile-test-pipeline
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+
+  - name: restore-cache
+    image: meltwater/drone-cache:v1.1
+    settings:
+      access_key: AKIA2O2WA53GZBCSPNA5
+      secret_key: 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
+      restore: true
+      bucket: boom-drone-demo
+      region: eu-west-1
+      mount:
+        - "/drone/src/.m2"
+
+
+  - name: compile-with-yarn
+    image: node:12-alpine3.10
+    commands:
+      - yarn
+      - yarn workspace run test
+
+  - name: rebuild-cache
+    image: meltwater/drone-cache:v1.1
+    settings:
+      access_key: AKIA2O2WA53GZBCSPNA5
+      secret_key: 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
+      rebuild: true
+      bucket: boom-drone-demo
+      region: eu-west-1
+      mount:
+        - "/drone/src/.m2"
+    when:
+      status:
+      - failure      
+      - success
+
+trigger:
+  branch:
+    - main
+    - develop
+  event:
+    - push
+
