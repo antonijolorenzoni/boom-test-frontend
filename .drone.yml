@@ -10,7 +10,7 @@ platform:
 steps:
 
   - name: restore-cache
-    image: meltwater/drone-cache:v1.1
+    image: meltwater/drone-cache:dev
     settings:
       access_key: 
         from_secret: access_key
@@ -35,7 +35,7 @@ steps:
     #    REACT_APP_API_VERSION: v1
 
   - name: rebuild-cache
-    image: meltwater/drone-cache:v1.1
+    image: meltwater/drone-cache:dev
     settings:
       access_key: 
         from_secret: access_key
