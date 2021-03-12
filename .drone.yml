@@ -30,10 +30,10 @@ steps:
       - yarn
       - yarn workspaces run test
       - ls -lrtas
-    #env:
-     #   CI: true
-      #  REACT_APP_API_BASE_URL: http://localhost:8080
-       # REACT_APP_API_VERSION: v1
+    environment:
+      CI: "true"
+      REACT_APP_API_BASE_URL: http://localhost:8080
+      REACT_APP_API_VERSION: v1
 
   - name: rebuild-cache
     image: meltwater/drone-cache:dev
