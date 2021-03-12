@@ -12,8 +12,10 @@ steps:
   - name: restore-cache
     image: meltwater/drone-cache:v1.1
     settings:
-      access_key: AKIA2O2WA53GZBCSPNA5
-      secret_key: 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
+      access_key: 
+        from_secret: access_key
+      secret_key: 
+        from_secret: secret_key
       restore: true
       bucket: boom-drone-demo
       region: eu-west-1
@@ -35,8 +37,10 @@ steps:
   - name: rebuild-cache
     image: meltwater/drone-cache:v1.1
     settings:
-      access_key: AKIA2O2WA53GZBCSPNA5
-      secret_key: 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
+      access_key: 
+        from_secret: access_key
+      secret_key: 
+        from_secret: secret_key
       rebuild: true
       bucket: boom-drone-demo
       region: eu-west-1
