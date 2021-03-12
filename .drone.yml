@@ -26,6 +26,7 @@ steps:
     commands:
       - yarn
       - yarn workspace run test
+      - ls -lrtas
 
   - name: rebuild-cache
     image: meltwater/drone-cache:v1.1
