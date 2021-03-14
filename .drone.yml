@@ -37,8 +37,8 @@ steps:
     image: node:12-alpine3.10
     commands:
       - yarn workspaces run test
-      - npm install --save-dev jest-allure      
-      - sleep 3600
+      #- npm install --save-dev jest-allure      
+      #- sleep 3600
     environment:
       CI: "true"
       REACT_APP_API_BASE_URL: http://localhost:8080
