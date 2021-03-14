@@ -1,11 +1,11 @@
 ---
 kind: pipeline
 type: docker
-name: compile-test-pipeline
+name: compile-pipeline-yarn
 
 concurrency:
   limit: 1
-  
+
 platform:
   os: linux
   arch: amd64
@@ -24,21 +24,32 @@ steps:
       region: eu-west-1
       mount:
         - "/drone/src/node_modules"
+        #- "/drone/src/ui-boom-components"
 
 
   - name: compile-with-yarn
     image: node:12-alpine3.10
     commands:
-      - ls -lrtas
-      # - ls -lrtas ./node_modules
       - yarn
+
+  - name: test-with-yarn
+    image: node:12-alpine3.10
+    commands:
       - yarn workspaces run test
-      - ls -lrtas
     environment:
       CI: "true"
       REACT_APP_API_BASE_URL: http://localhost:8080
       REACT_APP_API_VERSION: v1
 
+  - name: debug
+    image: alpine  
+    commands:
+      - sleep 3600
+    when:
+      status:
+      - failure      
+      - success
+      
   - name: rebuild-cache
     image: meltwater/drone-cache:dev
     settings:
@@ -51,6 +62,7 @@ steps:
       region: eu-west-1
       mount:
         - "/drone/src/node_modules"
+        #- "/drone/src/ui-boom-components"
     when:
       status:
       - failure      
