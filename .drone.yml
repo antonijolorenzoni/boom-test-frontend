@@ -57,12 +57,10 @@ steps:
     image: aaa/allure-node
     pull: never
     commands:
-      #- cd platform
+      - cd platform
+      - yarn test 
+      - ./node_modules/.bin/allure generate allure-results --clean -o allure-report
       #- yarn allure:report
-      - sleep 3600
-    #commands:
-      #- yarn workspaces run test
-      #- npm install --save-dev jest-allure      
       #- sleep 3600
     environment:
       CI: "true"

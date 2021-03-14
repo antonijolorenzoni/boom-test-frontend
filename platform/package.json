@@ -80,7 +80,7 @@
     "cypress": "5.6.0",
     "cypress-file-upload": "^5.0.2",
     "start-server-and-test": "^1.12.0",
-    "jest-allure": "^0.1.1"
+    "allure-commandline": "^2.9.0"
   },
   "scripts": {
     "start": "cross-env REACT_APP_VERSION=$npm_package_version react-scripts start",
