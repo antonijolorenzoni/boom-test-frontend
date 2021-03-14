@@ -80,10 +80,7 @@
     "cypress": "5.6.0",
     "cypress-file-upload": "^5.0.2",
     "start-server-and-test": "^1.12.0",
-    "@shelex/cypress-allure-plugin": "2.3.5",
-    "cypress-cucumber-preprocessor": "2.3.1",
-    "eslint-plugin-chai-friendly": "^0.6.0",
-    "eslint-plugin-cypress": "^2.11.2"
+    "jest-allure": "^0.1.1"
   },
   "scripts": {
     "start": "cross-env REACT_APP_VERSION=$npm_package_version react-scripts start",
@@ -92,10 +89,7 @@
     "eject": "react-scripts eject",
     "cy:headless": "start-server-and-test http://localhost:3000 cy:run",
     "cy:open": "cypress open",
-    "cy:run": "cypress run --headless",
-    "allure:report": "allure generate allure-results --clean -o allure-report",
-    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
-    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
+    "cy:run": "cypress run --headless"
   },
   "eslintConfig": {
     "extends": "react-app",

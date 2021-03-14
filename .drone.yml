@@ -53,13 +53,12 @@ steps:
 #      - failure      
 #      - success      
 
-
   - name: test-with-yarn
     image: aaa/allure-node
     pull: never
     commands:
-      - cd platform
-      - yarn allure:report
+      #- cd platform
+      #- yarn allure:report
       - sleep 3600
     #commands:
       #- yarn workspaces run test
