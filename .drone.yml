@@ -3,6 +3,9 @@ kind: pipeline
 type: docker
 name: compile-test-pipeline
 
+concurrency:
+  limit: 1
+  
 platform:
   os: linux
   arch: amd64
@@ -26,7 +29,8 @@ steps:
   - name: compile-with-yarn
     image: node:12-alpine3.10
     commands:
-      - ls -lrtas ./node_modules
+      - ls -lrtas
+      # - ls -lrtas ./node_modules
       - yarn
       - yarn workspaces run test
       - ls -lrtas
