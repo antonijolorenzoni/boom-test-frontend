@@ -36,8 +36,8 @@ steps:
   - name: test-with-yarn
     image: node:12-alpine3.10
     commands:
-      - npm install --save-dev jest-allure
       - yarn workspaces run test
+      - npm install --save-dev jest-allure      
       - sleep 3600
     environment:
       CI: "true"
