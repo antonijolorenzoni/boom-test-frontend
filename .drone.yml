@@ -28,7 +28,6 @@ steps:
         - "/drone/src/platform/node_modules"
         - "/drone/src/platform-guest/node_modules"
 
-
   - name: compile-with-yarn
     image: node:12-alpine3.10
     commands:
@@ -43,14 +42,14 @@ steps:
       REACT_APP_API_BASE_URL: http://localhost:8080
       REACT_APP_API_VERSION: v1
 
-  - name: debug
-    image: alpine  
-    commands:
-      - sleep 3600
-    when:
-      status:
-      - failure      
-      - success
+  #- name: debug
+  #  image: alpine  
+  #  commands:
+  #    - sleep 3600
+  #  when:
+  #    status:
+  #    - failure      
+  #    - success
 
   - name: rebuild-cache
     image: meltwater/drone-cache:dev
@@ -71,7 +70,6 @@ steps:
       status:
       - failure      
       - success
-
 
 trigger:
   branch:
