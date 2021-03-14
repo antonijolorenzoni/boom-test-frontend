@@ -24,7 +24,9 @@ steps:
       region: eu-west-1
       mount:
         - "/drone/src/node_modules"
-        #- "/drone/src/ui-boom-components"
+        - "/drone/src/ui-boom-components/node_modules"
+        - "/drone/src/platform/node_modules"
+        - "/drone/src/platform-guest/node_modules"
 
 
   - name: compile-with-yarn
@@ -49,7 +51,7 @@ steps:
       status:
       - failure      
       - success
-      
+
   - name: rebuild-cache
     image: meltwater/drone-cache:dev
     settings:
@@ -62,7 +64,9 @@ steps:
       region: eu-west-1
       mount:
         - "/drone/src/node_modules"
-        #- "/drone/src/ui-boom-components"
+        - "/drone/src/ui-boom-components/node_modules"
+        - "/drone/src/platform/node_modules"
+        - "/drone/src/platform-guest/node_modules"
     when:
       status:
       - failure      
