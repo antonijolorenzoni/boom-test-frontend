@@ -31,7 +31,7 @@ steps:
   - name: compile-with-yarn
     image: node:12-alpine3.10
     commands:
-      - sleep 3600
+      - yarn
 
 #  - name: rebuild-cache
 #    image: meltwater/drone-cache:dev
@@ -57,6 +57,8 @@ steps:
   - name: test-with-yarn
     image: aaa/allure-node
     pull: never
+    commands:
+      - sleep 3600
     #commands:
       #- yarn workspaces run test      
       #- npm install --save-dev jest-allure      
