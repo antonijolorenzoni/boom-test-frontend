@@ -60,7 +60,7 @@ steps:
     commands:
       - sleep 3600
     #commands:
-      #- yarn workspaces run test      
+      #- yarn workspaces run test
       #- npm install --save-dev jest-allure      
       #- sleep 3600
     environment:

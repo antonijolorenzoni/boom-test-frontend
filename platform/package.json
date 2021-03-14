@@ -99,13 +99,6 @@
     }
   },
   "jest": {
-    "setupFilesAfterEnv": [
-      "jest-allure/dist/setup"
-    ],
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!<rootDir>/node_modules/"
-    ],
     "coverageThreshold": {
       "global": {
         "branches": 0,
