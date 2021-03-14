@@ -31,7 +31,7 @@ steps:
   - name: compile-with-yarn
     image: node:12-alpine3.10
     commands:
-      - yarn
+      - sleep 3600
 
 #  - name: rebuild-cache
 #    image: meltwater/drone-cache:dev
