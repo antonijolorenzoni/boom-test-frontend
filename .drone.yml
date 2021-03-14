@@ -33,12 +33,33 @@ steps:
     commands:
       - yarn
 
+#  - name: rebuild-cache
+#    image: meltwater/drone-cache:dev
+#    settings:
+#      access_key: 
+#        from_secret: access_key
+#      secret_key: 
+#        from_secret: secret_key
+#      rebuild: true
+#      bucket: boom-drone-demo
+#      region: eu-west-1
+#      mount:
+#        - "/drone/src/node_modules"
+#        - "/drone/src/ui-boom-components/node_modules"
+#        - "/drone/src/platform/node_modules"
+#        - "/drone/src/platform-guest/node_modules"
+#    when:
+#      status:
+#      - failure      
+#      - success      
+
+
   - name: test-with-yarn
     image: node:12-alpine3.10
     commands:
-      - yarn workspaces run test
+      #- yarn workspaces run test      
       #- npm install --save-dev jest-allure      
-      #- sleep 3600
+      - sleep 3600
     environment:
       CI: "true"
       REACT_APP_API_BASE_URL: http://localhost:8080
@@ -53,25 +74,7 @@ steps:
   #    - failure      
   #    - success
 
-  - name: rebuild-cache
-    image: meltwater/drone-cache:dev
-    settings:
-      access_key: 
-        from_secret: access_key
-      secret_key: 
-        from_secret: secret_key
-      rebuild: true
-      bucket: boom-drone-demo
-      region: eu-west-1
-      mount:
-        - "/drone/src/node_modules"
-        - "/drone/src/ui-boom-components/node_modules"
-        - "/drone/src/platform/node_modules"
-        - "/drone/src/platform-guest/node_modules"
-    when:
-      status:
-      - failure      
-      - success
+
 
 trigger:
   branch:
